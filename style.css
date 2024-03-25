@@ -1,0 +1,19 @@
+header{
+    background-color:skyblue;
+    padding: 20px;
+    width: 1500px;
+    font-size: large;
+}
+input {
+    margin-top: 60px;
+   margin-left: 300px;
+   width: 400px;
+   height: 50px;
+}
+#clear{
+    margin: 100px;
+    background-color: gainsboro;
+}
+.container-fluid{
+    margin-right: 500px;
+}
