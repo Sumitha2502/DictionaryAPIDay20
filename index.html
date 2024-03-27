@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,15 +14,26 @@
 </head>
 <body>
     <div class="container-fluid">
-        <header>Free Dictionary API</header>
+        <div class="container">
+            <header class="text-center mt-3">Free Dictionary API</header>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6">
+                    <form class="input-container">
+                        <div class="input-group">
+                            <input type="search" class="form-control input" placeholder="Type it here..."/>
+                            <div class="input-group-append">
+                                <button class="btn" type="button" onclick="dic()">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <form class="input-container">
-        <input type="search" class="input" placeholder="Type it here..."/>
-        <i class="bi bi-search" onclick="dic()"></i>
-      </form>
-
-      <div id="clear"></div>
+    <div id="clear"></div>
 
     <script src="./script.js"></script>
 </body>
