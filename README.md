@@ -1,4 +1,4 @@
-This task displays the meaning for the given input when we clicked search or press enter
+This task displays the meaning for the given input when we click search or press enter
 
 Deployed Link:
 https://dictionarywordapi.netlify.app/
